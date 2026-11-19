@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simplifying Compliance for Research Analysts</title>
+  <link rel="preload" href="fonts/roboto-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@500&family=Inter:wght@600&display=swap">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar">
+    <div class="navbar__inner">
+      <a href="#" class="logo" aria-label="Logo">
+        <img src="images/logo-icon.png" alt="" class="logo__icon">
+        <span class="logo__text">Logo</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Main">
+        <div class="nav__head">
+          <a href="#" class="logo" aria-label="Logo">
+            <img src="images/logo-icon.png" alt="" class="logo__icon">
+            <span class="logo__text">Logo</span>
+          </a>
+          <button class="nav__close" id="navClose" aria-label="Close menu">
+            <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M2 2l14 14M16 2L2 16" stroke="#4356d6" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg>
+          </button>
+        </div>
+        <ul class="nav__list">
+          <li><a href="#" class="nav__link is-active"><img src="images/nav-home.png" alt="" width="24" height="24">Home</a></li>
+          <li><a href="#about" class="nav__link"><img src="images/nav-about.png" alt="" width="24" height="24">About Us</a></li>
+          <li><a href="#services" class="nav__link"><img src="images/nav-services.png" alt="" width="24" height="24">Our Services</a></li>
+          <li><a href="#pricing" class="nav__link"><img src="images/nav-pricing.png" alt="" width="24" height="24">Pricing</a></li>
+          <li><a href="#faq" class="nav__link"><img src="images/nav-faq.png" alt="" width="24" height="24">FAQ</a></li>
+          <li><a href="#contact" class="nav__link"><img src="images/nav-contact.png" alt="" width="24" height="24">Contact</a></li>
+        </ul>
+        <a href="#contact" class="btn btn--primary btn--icon nav__cta"><span class="btn__icon" aria-hidden="true"></span>Contact us</a>
+      </nav>
+
+      <a href="#contact" class="btn btn--primary btn--icon header-cta"><span class="btn__icon" aria-hidden="true"></span>Contact us</a>
+
+      <button class="hamburger" id="navOpen" aria-label="Open menu" aria-controls="nav" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" fill="currentColor"/></svg>
+      </button>
+    </div>
+    <div class="overlay" id="overlay"></div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero__inner">
+        <div class="hero__content">
+          <h1 class="hero__title">Simplifying <span class="accent">Compliance</span> for Research Analysts</h1>
+          <p class="hero__text">Stay focused on your insights—we’ll handle the compliance. Our expert solutions ensure your research practices meet every regulatory requirement with confidence and ease</p>
+
+          <ul class="checklist">
+            <li><img src="images/check.png" alt="" width="24" height="24"><span>End-to-end compliance support</span></li>
+            <li><img src="images/check.png" alt="" width="24" height="24"><span>Regulatory filings made simple</span></li>
+            <li><img src="images/check.png" alt="" width="24" height="24"><span>Tailored solutions for independent analysts &amp; firms</span></li>
+          </ul>
+
+          <div class="hero__buttons">
+            <a href="#contact" class="btn btn--primary">Get Started</a>
+            <a href="#contact" class="btn btn--outline">Book a Consultation</a>
+          </div>
+        </div>
+
+        <div class="hero__image">
+          <img class="hero__art" src="images/hero-illustration.svg" alt="Analyst presenting with a laptop">
+          <div class="stat stat--trusted">
+            <img class="stat__icon" src="images/briefcase-icon.png" alt="" aria-hidden="true">
+            <div class="stat__text"><span>Trusted By</span><strong>250+</strong><span>Professionals</span></div>
+          </div>
+          <div class="stat stat--rating">
+            <strong class="stat__num">4.8</strong>
+            <div class="stat__text">
+              <span class="stars" aria-hidden="true"><svg viewBox="0 0 17 16" width="17" height="16"><path d="M8.5 0l2.2 5.4 5.8.4-4.5 3.7 1.5 5.7-5-3.2-5 3.2 1.5-5.7L.5 5.8l5.8-.4z"/></svg><svg viewBox="0 0 17 16"><path d="M8.5 0l2.2 5.4 5.8.4-4.5 3.7 1.5 5.7-5-3.2-5 3.2 1.5-5.7L.5 5.8l5.8-.4z"/></svg><svg viewBox="0 0 17 16"><path d="M8.5 0l2.2 5.4 5.8.4-4.5 3.7 1.5 5.7-5-3.2-5 3.2 1.5-5.7L.5 5.8l5.8-.4z"/></svg><svg viewBox="0 0 17 16"><path d="M8.5 0l2.2 5.4 5.8.4-4.5 3.7 1.5 5.7-5-3.2-5 3.2 1.5-5.7L.5 5.8l5.8-.4z"/></svg><svg viewBox="0 0 17 16"><path d="M8.5 0l2.2 5.4 5.8.4-4.5 3.7 1.5 5.7-5-3.2-5 3.2 1.5-5.7L.5 5.8l5.8-.4z"/></svg></span>
+              <span>Clients Rating</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHY COMPLIANCE MATTERS ============ -->
+    <section class="why" id="about">
+      <div class="why__inner">
+        <div class="why__head">
+          <h2><span class="h2-line">Why <span class="accent">Compliance Matters</span></span> <span class="h2-line">for Research Analysts</span></h2>
+          <p>In today’s regulatory environment, even a small oversight can lead to penalties, reputational risks, and loss of client trust. We help Research Analysts and firms navigate complex compliance requirements so they can focus on delivering high-quality research without worry.</p>
+          <img class="why__arrow" src="images/vector2.png" alt="" aria-hidden="true">
+        </div>
+
+        <div class="why__body">
+          <div class="why__image">
+            <img src="images/section2.png" alt="Analytics dashboard and analyst at work">
+          </div>
+
+          <div class="cards" id="services">
+            <article class="card">
+              <img src="images/icon-regulatory.png" alt="" width="36" height="36">
+              <div class="card__text">
+                <h3>Regulatory Clarity</h3>
+                <p>We decode complex compliance rules into simple, actionable steps.</p>
+              </div>
+            </article>
+            <article class="card">
+              <img src="images/icon-filings.png" alt="" width="36" height="36">
+              <div class="card__text">
+                <h3>Hassle-Free Filings</h3>
+                <p>From registration to ongoing reporting—we manage it end-to-end.</p>
+              </div>
+            </article>
+            <article class="card">
+              <img src="images/icon-risk.png" alt="" width="36" height="36">
+              <div class="card__text">
+                <h3>Risk Protection</h3>
+                <p>Stay ahead of audits, inspections, and compliance gaps with proactive&nbsp;support.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+      <img class="why__vector" src="images/vector1.png" alt="" aria-hidden="true">
+    </section>
+  </main>
+
+  <script>
+    // Tablet / mobile slide-in menu
+    (function () {
+      var nav = document.getElementById('nav');
+      var overlay = document.getElementById('overlay');
+      var openBtn = document.getElementById('navOpen');
+      var closeBtn = document.getElementById('navClose');
+      function setOpen(open) {
+        nav.classList.toggle('is-open', open);
+        overlay.classList.toggle('is-open', open);
+        openBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+        document.body.classList.toggle('no-scroll', open);
+      }
+      openBtn.addEventListener('click', function () { setOpen(true); });
+      closeBtn.addEventListener('click', function () { setOpen(false); });
+      overlay.addEventListener('click', function () { setOpen(false); });
+      nav.addEventListener('click', function (e) { if (e.target.closest('a')) setOpen(false); });
+      document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setOpen(false); });
+      window.addEventListener('resize', function () { if (window.innerWidth >= 1100) setOpen(false); });
+    })();
+  </script>
+</body>
+</html>
